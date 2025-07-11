@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Handling Errors JS H/W</title>
+    </head>
+    <body>
+        <h2>JS ERROR HANDLING AND ARROW FUNCTIONS</h2>
+        <P id="result"></P>
+
+        <script>
+            product = (a,b) => a*b;
+
+            try{
+                document.getElementById("result").innerHTML = a;
+                // if the functuion is invoked here the result will be dispayed
+                // if any variable is given the error message will get displayed
+            }
+            catch (err) {
+                document.getElementById("result").innerHTML = error.message;
+            }
+        </script>
+    </body>
+</html>
